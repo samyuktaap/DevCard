@@ -39,6 +39,8 @@
     <meta name="description" content="{profile.bio || `${profile.displayName}'s developer profiles`}" />
     <meta property="og:title" content="{profile.displayName} — DevCard" />
     <meta property="og:description" content="{profile.bio || 'Developer profile card'}" />
+  {:else}
+    <title>User Not Found | DevCard</title>
   {/if}
 </svelte:head>
 
